@@ -1,22 +1,33 @@
-# 🌾 FarmConnect
+# FarmConnect
 
-A Direct Farmer-to-Consumer Marketplace.
+FarmConnect is a local farmer direct market platform that helps farmers connect directly with consumers, reduce dependency on intermediaries, and support transparent product sales.
 
 ## Features
-- Farmer product listing
-- Consumer browsing
+
+- Farmer registration and role-based access
+- Product listing and marketplace browsing
 - Order management
-- Role-based system
+- Live crop price support
+- Buyer and farmer dashboard workflows
 
 ## Tech Stack
-- Django REST API
-- React (Vite)
-- SQLite
-- REST Architecture
+
+- Frontend: React with Vite
+- Backend: Django REST API
+- Database: SQLite or PostgreSQL
+- API style: REST
 
 ## Run Backend
+
+```bash
+cd backend
 python manage.py runserver
+```
 
 ## Run Frontend
+
+```bash
+cd frontend
 npm install
 npm run dev
+```
