@@ -1,7 +1,7 @@
 import API from "../services/api";
 import { useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
-import { getFallbackProductImage, getProductImage } from "../utils/productImages";
+import { getDisplayProductName, getFallbackProductImage, getProductImage } from "../utils/productImages";
 
 export default function ProductCard({ product }) {
   const [loading, setLoading] = useState(false);
@@ -42,6 +42,7 @@ export default function ProductCard({ product }) {
   };
 
   const fallbackImage = getFallbackProductImage(product);
+  const displayName = getDisplayProductName(product.name);
 
   return (
     <div
@@ -57,7 +58,7 @@ export default function ProductCard({ product }) {
       <div style={{ position: "relative" }}>
         <img
           src={getProductImage(product)}
-          alt={product.name}
+          alt={displayName}
           width="100%"
           height="180"
           onError={(event) => {
@@ -84,7 +85,7 @@ export default function ProductCard({ product }) {
       </div>
 
       <div style={{ padding: "20px" }}>
-        <h3 style={{ margin: "0 0 10px 0", color: "#222" }}>{product.name}</h3>
+        <h3 style={{ margin: "0 0 10px 0", color: "#222" }}>{displayName}</h3>
 
         <p style={{ color: "var(--text-light)", fontSize: "14px", margin: "0 0 15px 0" }}>
           {t('sold_by')}

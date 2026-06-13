@@ -40,14 +40,14 @@ def seed():
             'description': 'Fresh farm-grown red tomatoes',
             'price': 40.00,
             'quantity': 100,
-            'image_url': 'https://images.unsplash.com/photo-1595855759920-86582396756a?auto=format&fit=crop&w=800&q=80'
+            'image_url': 'https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80'
         },
         {
             'farmer': farmer_profile,
-            'name': 'Green Chillies',
+            'name': 'Chilles',
             'category': 'vegetables',
-            'description': 'Spicy and fresh green chillies',
-            'price': 60.00,
+            'description': 'Spicy and fresh green chilles',
+            'price': 70.00,
             'quantity': 80,
             'image_url': 'https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=800&q=80'
         },
@@ -62,12 +62,21 @@ def seed():
         },
         {
             'farmer': farmer_profile,
+            'name': 'Carrot',
+            'category': 'vegetables',
+            'description': 'Fresh farm-grown carrot',
+            'price': 50.00,
+            'quantity': 80,
+            'image_url': 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80'
+        },
+        {
+            'farmer': farmer_profile,
             'name': 'Organic Potatoes',
             'category': 'vegetables',
             'description': 'Earth-grown organic potatoes',
             'price': 35.00,
             'quantity': 150,
-            'image_url': 'https://images.unsplash.com/photo-1518977676601-b53f02aba655?auto=format&fit=crop&w=800&q=80'
+            'image_url': 'https://images.unsplash.com/photo-1508313880080-c4bef0730395?auto=format&fit=crop&w=800&q=80'
         },
         {
             'farmer': farmer_profile,
@@ -92,18 +101,18 @@ def seed():
             'name': 'Fresh Alphonso Mangoes',
             'category': 'fruits',
             'description': 'King of fruits - sweet and aromatic',
-            'price': 450.00,
+            'price': 220.00,
             'quantity': 30,
             'image_url': 'https://images.unsplash.com/photo-1553279768-865386fa0095?auto=format&fit=crop&w=800&q=80'
         },
         {
             'farmer': farmer_profile,
-            'name': 'Green Grapes',
-            'category': 'fruits',
-            'description': 'Sweet and seedless green grapes',
-            'price': 120.00,
+            'name': 'Flowers',
+            'category': 'other',
+            'description': 'Fresh farm-grown flowers',
+            'price': 100.00,
             'quantity': 40,
-            'image_url': 'https://images.unsplash.com/photo-1533616688419-b7a585564566?auto=format&fit=crop&w=800&q=80'
+            'image_url': 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=80'
         },
         {
             'farmer': farmer_profile,
@@ -112,7 +121,7 @@ def seed():
             'description': 'Direct from farm, fresh and pure',
             'price': 65.00,
             'quantity': 40,
-            'image_url': 'https://images.unsplash.com/photo-1564149504298-00c351fd7f16?auto=format&fit=crop&w=800&q=80'
+            'image_url': 'https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=800&q=80'
         },
         {
             'farmer': farmer_profile,
@@ -121,16 +130,16 @@ def seed():
             'description': 'Nutritious farm-laid brown eggs',
             'price': 10.00,
             'quantity': 100,
-            'image_url': 'https://images.unsplash.com/photo-1582722872445-44c56bb62789?auto=format&fit=crop&w=800&q=80'
+            'image_url': 'https://images.unsplash.com/photo-1587486913049-53fc88980cfc?auto=format&fit=crop&w=800&q=80'
         },
         {
             'farmer': farmer_profile,
-            'name': 'Natural Forest Honey',
-            'category': 'other',
-            'description': 'Pure raw honey from forest hives',
-            'price': 350.00,
+            'name': 'Watermelon',
+            'category': 'fruits',
+            'description': 'Fresh and juicy watermelon',
+            'price': 30.00,
             'quantity': 25,
-            'image_url': 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80'
+            'image_url': 'https://images.unsplash.com/photo-1563114773-84221bd62daa?auto=format&fit=crop&w=800&q=80'
         },
         {
             'farmer': farmer_profile,

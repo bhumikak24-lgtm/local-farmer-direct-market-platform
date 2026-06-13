@@ -8,7 +8,7 @@ INSERT INTO products
 (farmer_id,name,category,description,price,stock_quantity,location)
 VALUES
 (1,'Organic Tomatoes','Vegetables','Fresh farm tomatoes',40.00,100,'Hyderabad'),
-(1,'Green Chillies','Vegetables','Naturally grown chillies',60.00,80,'Hyderabad');
+(1,'Chilles','Vegetables','Spicy and fresh green chilles',70.00,80,'Hyderabad');
 
 INSERT INTO orders
 (consumer_id,total_amount,order_status)

@@ -1,0 +1,41 @@
+Watching for file changes with StatReloader
+[13/Jun/2026 10:45:22] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:45:22] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:45:45] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:45:45,344] - Broken pipe from ('127.0.0.1', 50907)
+[13/Jun/2026 10:45:58] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:45:58] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:46:42] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:46:42] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:46:44] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:46:44] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:47:08] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:47:08] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:48:20] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:48:20] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:48:21] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:48:21] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:48:35] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:48:35] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:49:06] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:49:06] "GET /api/products/ HTTP/1.1" 200 5736
+[13/Jun/2026 10:56:23] "GET /api/products/ HTTP/1.1" 200 5701
+[13/Jun/2026 10:56:23,643] - Broken pipe from ('127.0.0.1', 55995)
+[13/Jun/2026 10:57:41] "GET /api/products/ HTTP/1.1" 200 5698
+[13/Jun/2026 10:57:41,617] - Broken pipe from ('127.0.0.1', 60814)
+[13/Jun/2026 10:58:43] "GET /api/products/ HTTP/1.1" 200 5698
+[13/Jun/2026 10:58:43] "GET /api/products/ HTTP/1.1" 200 5698
+[13/Jun/2026 10:59:08] "GET /api/products/ HTTP/1.1" 200 5698
+[13/Jun/2026 10:59:08] "GET /api/products/ HTTP/1.1" 200 5698
+[13/Jun/2026 11:10:59] "GET /api/products/ HTTP/1.1" 200 5686
+[13/Jun/2026 11:10:59,209] - Broken pipe from ('127.0.0.1', 61111)
+[13/Jun/2026 11:13:38] "GET /api/products/ HTTP/1.1" 200 5686
+[13/Jun/2026 11:13:38,794] - Broken pipe from ('127.0.0.1', 62190)
+[13/Jun/2026 11:14:17] "GET /api/products/ HTTP/1.1" 200 5686
+[13/Jun/2026 11:14:17] "GET /api/products/ HTTP/1.1" 200 5686
+[13/Jun/2026 11:17:32] "GET /api/products/ HTTP/1.1" 200 5684
+[13/Jun/2026 11:17:32,493] - Broken pipe from ('127.0.0.1', 50123)
+[13/Jun/2026 11:17:52] "GET /api/products/ HTTP/1.1" 200 5684
+[13/Jun/2026 11:17:52] "GET /api/products/ HTTP/1.1" 200 5684
+[13/Jun/2026 11:20:05] "GET /api/products/ HTTP/1.1" 200 5681
+[13/Jun/2026 11:20:05,712] - Broken pipe from ('127.0.0.1', 59124)

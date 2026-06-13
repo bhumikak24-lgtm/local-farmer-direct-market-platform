@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import ProductCard from "../components/ProductCard";
 import API from "../services/api";
 import { useLanguage } from "../context/LanguageContext";
+import { getDisplayProductName } from "../utils/productImages";
 
 function Products() {
   const [products, setProducts] = useState([]);
@@ -24,7 +25,7 @@ function Products() {
   }, []);
 
   const filteredProducts = products.filter((product) =>
-    product.name.toLowerCase().includes(search.toLowerCase())
+    getDisplayProductName(product.name).toLowerCase().includes(search.toLowerCase())
   );
 
   return (

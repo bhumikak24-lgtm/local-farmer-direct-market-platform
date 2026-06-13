@@ -12,7 +12,7 @@ cleanup_map = {
     'Organic Red Apples': ['Organic Apples'],
     'Fresh Alphonso Mangoes': ['Fresh Alphanso Mangoes'],
     'Pure Cow Milk': ['Whole Cow Milk'],
-    'Pure Desi Ghee': ['Pure Buffalo Ghee']
+    'Carrot': ['Pure Buffalo Ghee']
 }
 
 for keep, to_delete in cleanup_map.items():

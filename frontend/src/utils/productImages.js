@@ -13,8 +13,8 @@ const PRODUCT_ART = {
       <path d="M196 61l13-20 13 20" fill="#2f8f46"/>
     `,
   },
-  "green chillies": {
-    label: "Green Chillies",
+  "chilles": {
+    label: "Chilles",
     background: "#effaf0",
     accent: "#16833a",
     secondary: "#75b843",
@@ -85,18 +85,36 @@ const PRODUCT_ART = {
       <path d="M126 80c34-19 71 3 70 44" fill="none" stroke="#ffd56a" stroke-width="10" stroke-linecap="round"/>
     `,
   },
-  "green grapes": {
-    label: "Green Grapes",
-    background: "#f2fae9",
-    accent: "#7aac35",
-    secondary: "#4d8c2c",
+  "flowers": {
+    label: "Flowers",
+    background: "#fff0f6",
+    accent: "#d83f87",
+    secondary: "#2f8f46",
     shapes: `
-      <circle cx="139" cy="79" r="20" fill="#a8c94c"/>
-      <circle cx="112" cy="111" r="21" fill="#91b83f"/>
-      <circle cx="164" cy="112" r="22" fill="#b7d760"/>
-      <circle cx="136" cy="146" r="23" fill="#9fc64d"/>
-      <circle cx="190" cy="146" r="20" fill="#8daf3b"/>
-      <path d="M154 58c10-19 26-28 48-27" fill="none" stroke="#6b4d2f" stroke-width="7" stroke-linecap="round"/>
+      <path d="M160 92v86" stroke="#2f8f46" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="132" cy="92" rx="24" ry="38" fill="#f26aa3" transform="rotate(-35 132 92)"/>
+      <ellipse cx="188" cy="92" rx="24" ry="38" fill="#d83f87" transform="rotate(35 188 92)"/>
+      <ellipse cx="160" cy="67" rx="24" ry="38" fill="#ff8fbd"/>
+      <ellipse cx="160" cy="121" rx="24" ry="38" fill="#c92f78"/>
+      <circle cx="160" cy="96" r="21" fill="#f7c948"/>
+      <path d="M158 148c-24-18-48-20-70-5 23 18 46 20 70 5z" fill="#4ba85d"/>
+      <path d="M164 154c25-18 49-19 71-3-22 17-46 18-71 3z" fill="#2f8f46"/>
+    `,
+  },
+  "followers": {
+    label: "Flowers",
+    background: "#fff0f6",
+    accent: "#d83f87",
+    secondary: "#2f8f46",
+    shapes: `
+      <path d="M160 92v86" stroke="#2f8f46" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="132" cy="92" rx="24" ry="38" fill="#f26aa3" transform="rotate(-35 132 92)"/>
+      <ellipse cx="188" cy="92" rx="24" ry="38" fill="#d83f87" transform="rotate(35 188 92)"/>
+      <ellipse cx="160" cy="67" rx="24" ry="38" fill="#ff8fbd"/>
+      <ellipse cx="160" cy="121" rx="24" ry="38" fill="#c92f78"/>
+      <circle cx="160" cy="96" r="21" fill="#f7c948"/>
+      <path d="M158 148c-24-18-48-20-70-5 23 18 46 20 70 5z" fill="#4ba85d"/>
+      <path d="M164 154c25-18 49-19 71-3-22 17-46 18-71 3z" fill="#2f8f46"/>
     `,
   },
   "pure cow milk": {
@@ -123,16 +141,32 @@ const PRODUCT_ART = {
       <path d="M77 158c46 24 116 25 169 0" fill="none" stroke="#d99b56" stroke-width="12" stroke-linecap="round"/>
     `,
   },
-  "natural forest honey": {
-    label: "Forest Honey",
-    background: "#fff8df",
-    accent: "#d99416",
-    secondary: "#6f4517",
+  "watermelon": {
+    label: "Watermelon",
+    background: "#fff1f1",
+    accent: "#e5483f",
+    secondary: "#2f8f46",
     shapes: `
-      <rect x="109" y="76" width="101" height="101" rx="18" fill="#e2a128"/>
-      <rect x="124" y="58" width="72" height="28" rx="8" fill="#6f4517"/>
-      <path d="M125 122c20 15 48 15 69 0v28c-20 15-49 15-69 0z" fill="#ffd45a"/>
-      <text x="160" y="146" text-anchor="middle" font-size="17" font-weight="700" fill="#6f4517">HONEY</text>
+      <path d="M75 85c18 66 55 101 113 101s94-35 112-101z" fill="#2f8f46"/>
+      <path d="M96 91c17 48 47 73 92 73s75-25 92-73z" fill="#e5483f"/>
+      <path d="M111 91c15 36 40 54 77 54s62-18 77-54z" fill="#ff756b"/>
+      <circle cx="143" cy="119" r="4" fill="#243126"/>
+      <circle cx="177" cy="132" r="4" fill="#243126"/>
+      <circle cx="207" cy="113" r="4" fill="#243126"/>
+    `,
+  },
+  "watermellon": {
+    label: "Watermelon",
+    background: "#fff1f1",
+    accent: "#e5483f",
+    secondary: "#2f8f46",
+    shapes: `
+      <path d="M75 85c18 66 55 101 113 101s94-35 112-101z" fill="#2f8f46"/>
+      <path d="M96 91c17 48 47 73 92 73s75-25 92-73z" fill="#e5483f"/>
+      <path d="M111 91c15 36 40 54 77 54s62-18 77-54z" fill="#ff756b"/>
+      <circle cx="143" cy="119" r="4" fill="#243126"/>
+      <circle cx="177" cy="132" r="4" fill="#243126"/>
+      <circle cx="207" cy="113" r="4" fill="#243126"/>
     `,
   },
   "turmeric powder": {
@@ -226,6 +260,20 @@ const CATEGORY_ART = {
 
 const normalize = (value = "") => value.toString().trim().toLowerCase();
 
+export const getDisplayProductName = (name = "") => {
+  const normalizedName = normalize(name);
+
+  if (normalizedName === "followers") {
+    return "Flowers";
+  }
+
+  if (normalizedName === "watermellon") {
+    return "Watermelon";
+  }
+
+  return name;
+};
+
 const renderProductSvg = (art) => {
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="${art.label}">
@@ -233,8 +281,6 @@ const renderProductSvg = (art) => {
       <circle cx="275" cy="38" r="46" fill="${art.accent}" opacity="0.12"/>
       <circle cx="45" cy="182" r="52" fill="${art.secondary}" opacity="0.12"/>
       ${art.shapes}
-      <rect x="34" y="178" width="252" height="30" rx="15" fill="#ffffff" opacity="0.88"/>
-      <text x="160" y="199" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#243126">${art.label}</text>
     </svg>
   `;
 
@@ -248,23 +294,12 @@ export const getFallbackProductImage = (product = {}) => {
 
 export const getProductImage = (product = {}) => {
   if (product.image_url) {
-    console.log(`Using image_url for: ${product.name}`);
     return product.image_url;
   }
 
   if (product.image) {
-    console.log(`Using image for: ${product.name}`);
     return product.image;
   }
 
-  const normalizedName = normalize(product.name);
-  const knownArt = PRODUCT_ART[normalizedName];
-
-  if (knownArt) {
-    console.log(`Using PRODUCT_ART for: ${product.name}`);
-    return renderProductSvg(knownArt);
-  }
-
-  console.log(`Using fallback for: ${product.name}`);
   return getFallbackProductImage(product);
 };
