@@ -25,8 +25,9 @@ repos:
         language: system
         types: [javascript, jsx, json, markdown, yaml]
 
-      - id: typescript
-        name: typescript
-        entry: npx tsc --noEmit
+      - id: type-check
+        name: type-check
+        entry: npm run typecheck
         language: system
         pass_filenames: false
+        types: [javascript, jsx, ts, tsx]
