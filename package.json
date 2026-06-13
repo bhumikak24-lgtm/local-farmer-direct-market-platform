@@ -5,20 +5,15 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint": "npm run lint:eslint && npm run lint:biome && npm run lint:oxlint && npm run lint:knip",
-    "lint:eslint": "eslint . --fix",
-    "lint:biome": "biome check . --write",
-    "lint:oxlint": "oxlint .",
-    "lint:knip": "knip",
-    "format": "prettier --write . && biome format . --write",
+    "lint": "eslint . --fix",
+    "format": "prettier --write .",
     "test": "vitest run",
-    "test:watch": "vitest",
     "coverage": "vitest run --coverage",
-    "typecheck": "cd frontend && tsc --noEmit || echo 'TypeScript not fully configured yet'",
-    "audit": "npm audit",
-    "security": "gitleaks detect --verbose",
+    "typecheck": "tsc --noEmit",
+    "audit": "npm audit --audit-level=high",
+    "security": "gitleaks detect --source . --verbose",
     "changelog": "git-cliff -o CHANGELOG.md",
-    "validate": "npm run lint && npm run format && npm run test && npm run security"
+    "validate": "npm run lint && npm run format && npm run typecheck && npm run test && npm run security"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

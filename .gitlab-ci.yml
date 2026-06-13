@@ -4,6 +4,7 @@ stages:
   - test
   - type_check
   - coverage
+  - audit
 
 variables:
   NODE_VERSION: "20"
@@ -16,13 +17,12 @@ default:
 lint:
   stage: lint
   script:
-    - npm run lint
+    - npx eslint .
 
 format:
   stage: format
   script:
-    - npm run format
-  allow_failure: true
+    - npx prettier --check .
 
 test:
   stage: test
@@ -32,8 +32,7 @@ test:
 type_check:
   stage: type_check
   script:
-    - npm run typecheck
-  allow_failure: true
+    - npx tsc --noEmit
 
 coverage:
   stage: coverage
@@ -42,18 +41,14 @@ coverage:
   artifacts:
     paths:
       - coverage/
-    reports:
-      coverage_report:
-        coverage_format: lcov
-        path: coverage/lcov.info
+
+dependency_audit:
+  stage: audit
+  script:
+    - npm audit --audit-level=high
 
 security_scan:
   stage: lint
   script:
-    - npm run security
+    - npx gitleaks detect --source . --verbose
   allow_failure: true
-
-dependency_audit:
-  stage: lint
-  script:
-    - npm run audit

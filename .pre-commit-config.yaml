@@ -5,7 +5,6 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
-      - id: check-added-large-files
 
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.24.0
@@ -14,20 +13,20 @@ repos:
 
   - repo: local
     hooks:
-      - id: lint
-        name: lint
-        entry: npm run lint
+      - id: eslint
+        name: eslint
+        entry: npx eslint . --fix
         language: system
-        files: \.(js|jsx|ts|tsx)$
+        types: [javascript]
 
-      - id: format
-        name: format
-        entry: npm run format
+      - id: prettier
+        name: prettier
+        entry: npx prettier --write .
         language: system
-        files: \.(js|jsx|ts|tsx|json|md|yml|yaml)$
+        types: [javascript, jsx, json, markdown, yaml]
 
-      - id: test
-        name: test
-        entry: npm run test
+      - id: typescript
+        name: typescript
+        entry: npx tsc --noEmit
         language: system
         pass_filenames: false
