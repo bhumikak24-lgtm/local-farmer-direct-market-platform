@@ -4,3 +4,30 @@ repos:
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.0
+    hooks:
+      - id: gitleaks
+
+  - repo: local
+    hooks:
+      - id: lint
+        name: lint
+        entry: npm run lint
+        language: system
+        files: \.(js|jsx|ts|tsx)$
+
+      - id: format
+        name: format
+        entry: npm run format
+        language: system
+        files: \.(js|jsx|ts|tsx|json|md|yml|yaml)$
+
+      - id: test
+        name: test
+        entry: npm run test
+        language: system
+        pass_filenames: false

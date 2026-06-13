@@ -1,0 +1,14 @@
+# Gitleaks Configuration
+[allowlist]
+description = "Allowlisted files and paths"
+paths = [
+    '''LICENSE''',
+    '''package-lock.json''',
+    '''node_modules'''
+]
+
+[rules]
+[[rules]]
+description = "Generic API Key"
+regex = '''(?i)(api_key|apikey|secret|password|token)[^a-z0-9][a-z0-9]{16,}'''
+tags = ["key", "generic"]

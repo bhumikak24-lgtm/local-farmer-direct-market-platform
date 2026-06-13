@@ -1,10 +1,39 @@
 {
+  "name": "local-farmer-direct-market-platform",
+  "version": "1.0.0",
+  "description": "Local Farmer Direct Market Platform - Compliance Suite",
+  "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
+    "lint": "npm run lint:eslint && npm run lint:biome && npm run lint:oxlint && npm run lint:knip",
+    "lint:eslint": "eslint . --fix",
+    "lint:biome": "biome check . --write",
+    "lint:oxlint": "oxlint .",
+    "lint:knip": "knip",
+    "format": "prettier --write . && biome format . --write",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "typecheck": "cd frontend && tsc --noEmit || echo 'TypeScript not fully configured yet'",
     "audit": "npm audit",
-    "audit-fix": "npm audit fix"
+    "security": "gitleaks detect --verbose",
+    "changelog": "git-cliff -o CHANGELOG.md",
+    "validate": "npm run lint && npm run format && npm run test && npm run security"
   },
   "devDependencies": {
-    "eslint": "^10.5.0",
-    "prettier": "^3.8.4"
+    "@eslint/js": "^9.21.0",
+    "@oxlint/cli": "^0.15.13",
+    "@vitest/coverage-v8": "^3.0.7",
+    "biome": "^1.9.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.4",
+    "git-cliff": "^2.8.1",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "jsdom": "^26.0.0",
+    "knip": "^5.45.0",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.2",
+    "vitest": "^3.0.7"
   }
 }

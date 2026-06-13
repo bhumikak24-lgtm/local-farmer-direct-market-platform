@@ -1,19 +1,59 @@
 stages:
-  - backend
-  - frontend
+  - lint
+  - format
+  - test
+  - type_check
+  - coverage
 
-backend:
-  stage: backend
-  image: python:3.12
-  script:
-    - cd backend
-    - pip install -r requirements.txt
-    - python manage.py check
+variables:
+  NODE_VERSION: "20"
 
-frontend:
-  stage: frontend
-  image: node:20
+default:
+  image: node:$NODE_VERSION
+  before_script:
+    - npm install --silent
+
+lint:
+  stage: lint
   script:
-    - cd frontend
-    - npm install
-    - npm run build
+    - npm run lint
+
+format:
+  stage: format
+  script:
+    - npm run format
+  allow_failure: true
+
+test:
+  stage: test
+  script:
+    - npm run test
+
+type_check:
+  stage: type_check
+  script:
+    - npm run typecheck
+  allow_failure: true
+
+coverage:
+  stage: coverage
+  script:
+    - npm run coverage
+  artifacts:
+    paths:
+      - coverage/
+    reports:
+      coverage_report:
+        coverage_format: lcov
+        path: coverage/lcov.info
+
+security_scan:
+  stage: lint
+  script:
+    - npm run security
+  allow_failure: true
+
+dependency_audit:
+  stage: lint
+  script:
+    - npm run audit

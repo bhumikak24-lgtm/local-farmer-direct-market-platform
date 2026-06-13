@@ -1,0 +1,5 @@
+# Spec-Kit Configuration
+specification_directory: specs
+template_directory: templates
+constitution_file: constitution.md
+output_directory: .specify/output

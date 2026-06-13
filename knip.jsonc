@@ -1,0 +1,7 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["frontend/src/main.jsx", "backend/manage.py"],
+  "project": ["**/*.{js,jsx,py}"],
+  "ignore": ["node_modules/**", "dist/**"],
+  "ignoreDependencies": ["@vitest/coverage-v8"]
+}
