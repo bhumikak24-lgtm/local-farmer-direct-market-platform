@@ -83,3 +83,6 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. All features require 
 Licensed under [AGPLv3](LICENSE).
 ## Compliance
 This project follows GitLab compliance standards.
+## Compliance Verification
+
+This project follows GitLab compliance standards and automated quality checks.
