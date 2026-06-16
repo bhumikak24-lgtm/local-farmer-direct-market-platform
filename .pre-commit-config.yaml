@@ -31,3 +31,11 @@ repos:
         language: system
         pass_filenames: false
         types: [javascript, jsx, ts, tsx]
+- repo: local
+  hooks:
+    - id: typescript-typecheck
+      name: typescript-typecheck
+      entry: npm run typecheck
+      language: system
+      pass_filenames: false
+      stages: [pre-commit]
