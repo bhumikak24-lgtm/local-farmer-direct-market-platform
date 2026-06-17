@@ -1,12 +1,15 @@
 # Product Specification
 
 ## Product Name
+
 FarmConnect
 
 ## Problem Statement
+
 Farmers often receive low profits due to intermediaries. Consumers pay higher prices while farmers receive lower compensation.
 
 ## Solution
+
 A direct farmer-to-consumer marketplace.
 
 ## Key Features

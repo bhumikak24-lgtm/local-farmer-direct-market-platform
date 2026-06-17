@@ -3,5 +3,5 @@
   "entry": ["frontend/src/main.jsx", "backend/manage.py"],
   "project": ["**/*.{js,jsx,py}"],
   "ignore": ["node_modules/**", "dist/**"],
-  "ignoreDependencies": ["@vitest/coverage-v8"]
+  "ignoreDependencies": ["@vitest/coverage-v8"],
 }

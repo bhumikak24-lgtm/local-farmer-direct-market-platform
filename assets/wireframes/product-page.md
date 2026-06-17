@@ -1,8 +1,8 @@
 # Product Details Page
 
-----------------------------------
-Product Image
-----------------------------------
+---
+
+## Product Image
 
 Product Name
 

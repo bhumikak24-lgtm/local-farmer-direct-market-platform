@@ -1,18 +1,18 @@
-import { createContext, useContext, useState } from "react";
-import { translations } from "../utils/translations";
+import { createContext, useContext, useState } from 'react';
+import { translations } from '../utils/translations';
 
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
-  const [lang, setLangState] = useState(localStorage.getItem("lang") || "en");
+  const [lang, setLangState] = useState(localStorage.getItem('lang') || 'en');
 
   const setLang = (newLang) => {
     setLangState(newLang);
-    localStorage.setItem("lang", newLang);
+    localStorage.setItem('lang', newLang);
   };
 
   const t = (key) => {
-    const translationSet = translations[lang] || translations["en"];
+    const translationSet = translations[lang] || translations['en'];
     return translationSet[key] !== undefined ? translationSet[key] : key;
   };
 
@@ -26,7 +26,7 @@ export function LanguageProvider({ children }) {
 export function useLanguage() {
   const context = useContext(LanguageContext);
   if (!context) {
-    throw new Error("useLanguage must be used within a LanguageProvider");
+    throw new Error('useLanguage must be used within a LanguageProvider');
   }
   return context;
 }

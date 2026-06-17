@@ -1,8 +1,8 @@
 # Farmer Dashboard
 
------------------------------------------
-| Dashboard | Products | Orders |
------------------------------------------
+---
+
+## | Dashboard | Products | Orders |
 
 Total Products : 25
 
@@ -12,6 +12,6 @@ Revenue : ₹25,000
 
 Recent Orders
 
------------------------------------------
-| Order ID | Product | Status |
------------------------------------------
+---
+
+## | Order ID | Product | Status |

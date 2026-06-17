@@ -1,10 +1,10 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
-import Products from "../pages/Products";
-import Cart from "../pages/Cart";
-import Payment from "../pages/Payment";
+import { Routes, Route } from 'react-router-dom';
+import Home from '../pages/Home';
+import Login from '../pages/Login';
+import Register from '../pages/Register';
+import Products from '../pages/Products';
+import Cart from '../pages/Cart';
+import Payment from '../pages/Payment';
 
 export default function AppRoutes() {
   return (

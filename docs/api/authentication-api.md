@@ -7,14 +7,14 @@ POST /api/auth/register
 Request
 
 {
-  "full_name": "Ramesh",
-  "email": "ramesh@gmail.com",
-  "password": "password123",
-  "role": "farmer"
+"full_name": "Ramesh",
+"email": "ramesh@gmail.com",
+"password": "password123",
+"role": "farmer"
 }
 
 Response
 
 {
-  "message": "User registered successfully"
+"message": "User registered successfully"
 }

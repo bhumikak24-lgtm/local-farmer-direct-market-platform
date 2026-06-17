@@ -25,13 +25,16 @@ A digital platform connecting farmers directly with consumers.
 ## Technology Stack
 
 Frontend:
+
 - React.js
 - Tailwind CSS
 
 Backend:
+
 - Django REST Framework
 
 Database:
+
 - PostgreSQL
 
 ## Benefits

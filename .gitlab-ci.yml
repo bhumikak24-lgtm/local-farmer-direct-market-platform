@@ -7,7 +7,7 @@ stages:
   - audit
 
 variables:
-  NODE_VERSION: "20"
+  NODE_VERSION: '20'
 
 default:
   image: node:$NODE_VERSION

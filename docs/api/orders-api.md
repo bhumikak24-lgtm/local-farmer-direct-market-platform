@@ -7,12 +7,12 @@ POST /api/orders
 Request
 
 {
-  "product_id": 1,
-  "quantity": 5
+"product_id": 1,
+"quantity": 5
 }
 
 Response
 
 {
-  "message": "Order created successfully"
+"message": "Order created successfully"
 }

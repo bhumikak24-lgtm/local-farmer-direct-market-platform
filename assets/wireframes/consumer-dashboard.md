@@ -1,13 +1,13 @@
 # Consumer Dashboard
 
------------------------------------------
-| Home | Orders | Cart | Profile |
------------------------------------------
+---
+
+## | Home | Orders | Cart | Profile |
 
 Recent Orders
 
------------------------------------------
-| Product | Quantity | Status |
------------------------------------------
+---
+
+## | Product | Quantity | Status |
 
 Recommended Products

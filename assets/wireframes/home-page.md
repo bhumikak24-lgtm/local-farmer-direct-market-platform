@@ -1,8 +1,8 @@
 # Home Page Wireframe
 
-------------------------------------------------
-| Logo | Home | Products | Login | Register |
-------------------------------------------------
+---
+
+## | Logo | Home | Products | Login | Register |
 
 Hero Section
 
@@ -12,8 +12,8 @@ Hero Section
 
 Featured Products
 
-------------------------------------------------
-| Tomato | Potato | Onion | Mango |
-------------------------------------------------
+---
+
+## | Tomato | Potato | Onion | Mango |
 
 Footer

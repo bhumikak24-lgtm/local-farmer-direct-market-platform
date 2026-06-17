@@ -2,7 +2,7 @@
 
 # Contributing to FarmConnect
 
-Thank you for your interest in contributing to FarmConnect! 
+Thank you for your interest in contributing to FarmConnect!
 
 FarmConnect is an open-source platform that connects farmers directly with consumers, helping create a transparent and efficient agricultural marketplace.
 
@@ -30,11 +30,11 @@ We welcome contributions from developers, designers, testers, and documentation 
 
 By participating in this project, you agree to:
 
-* Be respectful and professional.
-* Provide constructive feedback.
-* Help maintain a welcoming environment.
-* Respect different viewpoints and experiences.
-* Focus on improving the project.
+- Be respectful and professional.
+- Provide constructive feedback.
+- Help maintain a welcoming environment.
+- Respect different viewpoints and experiences.
+- Focus on improving the project.
 
 ---
 
@@ -171,11 +171,11 @@ git checkout -b test/order-api
 
 ## General Rules
 
-* Write clean and readable code.
-* Follow project folder structure.
-* Keep functions modular and reusable.
-* Avoid duplicate code.
-* Use meaningful variable names.
+- Write clean and readable code.
+- Follow project folder structure.
+- Keep functions modular and reusable.
+- Avoid duplicate code.
+- Use meaningful variable names.
 
 ---
 
@@ -183,16 +183,16 @@ git checkout -b test/order-api
 
 ### React
 
-* Use Functional Components.
-* Use Hooks instead of Class Components.
-* Separate business logic from UI.
-* Keep components reusable.
+- Use Functional Components.
+- Use Hooks instead of Class Components.
+- Separate business logic from UI.
+- Keep components reusable.
 
 ### Styling
 
-* Use Tailwind CSS.
-* Ensure responsive design.
-* Maintain consistent spacing and layout.
+- Use Tailwind CSS.
+- Ensure responsive design.
+- Maintain consistent spacing and layout.
 
 ---
 
@@ -200,16 +200,16 @@ git checkout -b test/order-api
 
 ### Django
 
-* Follow PEP8 conventions.
-* Use serializers for API responses.
-* Validate all user input.
-* Handle exceptions properly.
+- Follow PEP8 conventions.
+- Use serializers for API responses.
+- Validate all user input.
+- Handle exceptions properly.
 
 ### API Design
 
-* Follow RESTful principles.
-* Return proper HTTP status codes.
-* Use meaningful error messages.
+- Follow RESTful principles.
+- Return proper HTTP status codes.
+- Use meaningful error messages.
 
 ---
 
@@ -257,11 +257,11 @@ Before creating a pull request:
 
 ## Checklist
 
-* Code builds successfully.
-* Tests pass successfully.
-* Documentation is updated.
-* No unnecessary files included.
-* Feature has been manually tested.
+- Code builds successfully.
+- Tests pass successfully.
+- Documentation is updated.
+- No unnecessary files included.
+- Feature has been manually tested.
 
 ---
 
@@ -273,11 +273,11 @@ Provide a brief description of changes.
 
 ### Type of Change
 
-* Feature
-* Bug Fix
-* Documentation
-* Refactor
-* Test
+- Feature
+- Bug Fix
+- Documentation
+- Refactor
+- Test
 
 ### Testing
 
@@ -293,10 +293,10 @@ Attach screenshots if UI changes were made.
 
 All contributors must ensure:
 
-* Unit tests pass.
-* Integration tests pass.
-* API tests pass.
-* No critical bugs introduced.
+- Unit tests pass.
+- Integration tests pass.
+- API tests pass.
+- No critical bugs introduced.
 
 Minimum target coverage:
 
@@ -310,17 +310,17 @@ Minimum target coverage:
 
 Update documentation when:
 
-* New features are added.
-* APIs are modified.
-* User workflows change.
-* Configuration changes occur.
+- New features are added.
+- APIs are modified.
+- User workflows change.
+- Configuration changes occur.
 
 Documentation files include:
 
-* README.md
-* USER_MANUAL.md
-* API Documentation
-* Deployment Guides
+- README.md
+- USER_MANUAL.md
+- API Documentation
+- Deployment Guides
 
 ---
 
@@ -333,12 +333,12 @@ Before creating a new issue:
 
 Include:
 
-* Clear title
-* Description
-* Steps to reproduce
-* Expected behavior
-* Actual behavior
-* Screenshots (if applicable)
+- Clear title
+- Description
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Screenshots (if applicable)
 
 ---
 
@@ -346,10 +346,10 @@ Include:
 
 Feature requests should include:
 
-* Problem statement
-* Proposed solution
-* Expected impact
-* Mockups (optional)
+- Problem statement
+- Proposed solution
+- Expected impact
+- Mockups (optional)
 
 ---
 

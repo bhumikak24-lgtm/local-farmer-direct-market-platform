@@ -1,25 +1,25 @@
 # FarmConnect System Architecture
 
 +----------------------+
-|      Frontend        |
+| Frontend |
 | React + Tailwind CSS |
 +----------+-----------+
-           |
-           v
+|
+v
 +----------------------+
-|   Django REST API    |
+| Django REST API |
 +----------+-----------+
-           |
-           v
+|
+v
 +----------------------+
-|     PostgreSQL       |
-|      Database        |
+| PostgreSQL |
+| Database |
 +----------------------+
 
 Users
- |
- +--> Farmers
- |
- +--> Consumers
- |
- +--> Admin
+|
++--> Farmers
+|
++--> Consumers
+|
++--> Admin

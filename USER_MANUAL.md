@@ -32,11 +32,11 @@ FarmConnect is a digital marketplace designed to connect farmers directly with c
 
 ## Objectives
 
-* Enable direct farmer-to-consumer sales
-* Improve transparency in agricultural trade
-* Reduce dependency on middlemen
-* Provide an easy-to-use digital marketplace
-* Support local farming communities
+- Enable direct farmer-to-consumer sales
+- Improve transparency in agricultural trade
+- Reduce dependency on middlemen
+- Provide an easy-to-use digital marketplace
+- Support local farming communities
 
 ---
 
@@ -44,17 +44,17 @@ FarmConnect is a digital marketplace designed to connect farmers directly with c
 
 ## Supported Devices
 
-* Desktop Computers
-* Laptops
-* Tablets
-* Smartphones
+- Desktop Computers
+- Laptops
+- Tablets
+- Smartphones
 
 ## Supported Browsers
 
-* Google Chrome
-* Mozilla Firefox
-* Microsoft Edge
-* Safari
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
 
 ## Internet Connection
 
@@ -70,31 +70,31 @@ FarmConnect supports three user roles:
 
 Farmers can:
 
-* Create and manage product listings
-* Update inventory
-* View customer orders
-* Track sales performance
-* Respond to customer reviews
+- Create and manage product listings
+- Update inventory
+- View customer orders
+- Track sales performance
+- Respond to customer reviews
 
 ## Consumer
 
 Consumers can:
 
-* Browse products
-* Search and filter products
-* Place orders
-* Track order status
-* Submit ratings and reviews
+- Browse products
+- Search and filter products
+- Place orders
+- Track order status
+- Submit ratings and reviews
 
 ## Administrator
 
 Administrators can:
 
-* Manage users
-* Monitor products
-* Handle reports
-* View analytics
-* Manage platform settings
+- Manage users
+- Monitor products
+- Handle reports
+- View analytics
+- Manage platform settings
 
 ---
 
@@ -114,11 +114,11 @@ Click the **Register** button.
 
 Enter:
 
-* Full Name
-* Email Address
-* Mobile Number
-* Password
-* User Role (Farmer or Consumer)
+- Full Name
+- Email Address
+- Mobile Number
+- Password
+- User Role (Farmer or Consumer)
 
 ### Step 4
 
@@ -149,10 +149,10 @@ If login is successful, you will be redirected to your dashboard.
 
 The dashboard provides:
 
-* Product management
-* Order management
-* Sales overview
-* Notifications
+- Product management
+- Order management
+- Sales overview
+- Notifications
 
 ---
 
@@ -170,13 +170,13 @@ Click **Add Product**.
 
 Enter:
 
-* Product Name
-* Category
-* Description
-* Price
-* Quantity Available
-* Product Image
-* Location
+- Product Name
+- Category
+- Description
+- Price
+- Quantity Available
+- Product Image
+- Location
 
 ### Step 4
 
@@ -190,10 +190,10 @@ The product will now appear in the marketplace.
 
 Farmers can:
 
-* Edit product information
-* Update stock quantity
-* Delete products
-* View product performance
+- Edit product information
+- Update stock quantity
+- Delete products
+- View product performance
 
 ---
 
@@ -201,11 +201,11 @@ Farmers can:
 
 Farmers can:
 
-* View incoming orders
-* Accept orders
-* Reject orders
-* Update order status
-* Mark orders as delivered
+- View incoming orders
+- Accept orders
+- Reject orders
+- Update order status
+- Mark orders as delivered
 
 ---
 
@@ -215,10 +215,10 @@ Farmers can:
 
 Consumers can:
 
-* View available products
-* Search by keyword
-* Filter by category
-* Sort by price
+- View available products
+- Search by keyword
+- Filter by category
+- Sort by price
 
 ---
 
@@ -226,12 +226,12 @@ Consumers can:
 
 Each product page displays:
 
-* Product Name
-* Description
-* Price
-* Quantity Available
-* Farmer Information
-* Ratings and Reviews
+- Product Name
+- Description
+- Price
+- Quantity Available
+- Farmer Information
+- Ratings and Reviews
 
 ---
 
@@ -263,11 +263,11 @@ Confirm your order.
 
 Supported payment methods:
 
-* UPI
-* Credit Card
-* Debit Card
-* Net Banking
-* Cash on Delivery (Optional)
+- UPI
+- Credit Card
+- Debit Card
+- Net Banking
+- Cash on Delivery (Optional)
 
 After successful payment, an order confirmation message will be displayed.
 
@@ -317,19 +317,19 @@ Consumers can leave feedback after receiving products.
 
 ## Rating Scale
 
-* 1 Star – Poor
-* 2 Stars – Fair
-* 3 Stars – Good
-* 4 Stars – Very Good
-* 5 Stars – Excellent
+- 1 Star – Poor
+- 2 Stars – Fair
+- 3 Stars – Good
+- 4 Stars – Very Good
+- 5 Stars – Excellent
 
 ## Writing Reviews
 
 Reviews should:
 
-* Be respectful
-* Be relevant to the product
-* Avoid offensive language
+- Be respectful
+- Be relevant to the product
+- Avoid offensive language
 
 ---
 
@@ -337,11 +337,11 @@ Reviews should:
 
 Users receive notifications for:
 
-* New Orders
-* Order Status Updates
-* Payment Confirmation
-* Product Updates
-* Review Responses
+- New Orders
+- Order Status Updates
+- Payment Confirmation
+- Product Updates
+- Review Responses
 
 Notifications are accessible through the dashboard.
 
@@ -385,9 +385,9 @@ Yes. Reviews can be submitted after order completion.
 
 Check:
 
-* Internet connection
-* Email address
-* Password correctness
+- Internet connection
+- Email address
+- Password correctness
 
 If the issue persists, reset your password.
 
@@ -397,9 +397,9 @@ If the issue persists, reset your password.
 
 Verify:
 
-* Product details are complete
-* Product stock is greater than zero
-* Product has been successfully saved
+- Product details are complete
+- Product stock is greater than zero
+- Product has been successfully saved
 
 ---
 
@@ -407,9 +407,9 @@ Verify:
 
 Try:
 
-* Checking internet connectivity
-* Verifying payment details
-* Retrying after a few minutes
+- Checking internet connectivity
+- Verifying payment details
+- Retrying after a few minutes
 
 ---
 
