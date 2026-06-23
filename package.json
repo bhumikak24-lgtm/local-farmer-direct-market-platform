@@ -16,7 +16,8 @@
     "audit": "npm audit --audit-level=high",
     "security": "gitleaks detect --source . --verbose",
     "changelog": "git-cliff -o CHANGELOG.md",
-    "validate": "npm run lint && npm run typecheck && npm run test && npm run security"
+    "validate": "npm run lint && npm run typecheck && npm run test && npm run security",
+    "lint:staged": "lint-staged"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

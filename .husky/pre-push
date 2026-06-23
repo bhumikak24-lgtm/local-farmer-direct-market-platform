@@ -1,6 +1,3 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 echo "🚀 Running build..."
 npm run build || exit 1
 
@@ -10,7 +7,7 @@ npm run test || exit 1
 echo "🧠 Running typecheck..."
 npm run typecheck || exit 1
 
-echo "🔐 Running security audit..."
+echo "🔐 Running audit..."
 npm run audit || exit 1
 
 echo "✅ Pre-push passed"
